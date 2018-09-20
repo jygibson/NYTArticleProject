@@ -9,7 +9,7 @@ body {
    }
    
    h1,h2,h3,h4,h5,h6 {
-    text-align: center
+    text-align: center;
     font-family: 'Alegreya', serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(247, 8, 8);
