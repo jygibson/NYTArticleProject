@@ -1,7 +1,8 @@
 body {
-    background: url('../images/nyt_bg.jpg') no-repeat fixed;
+    /* background: url('../images/nyt_bg.jpg') no-repeat fixed; */
     background-size: cover;
     font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
    
    }
    
@@ -12,17 +13,20 @@ body {
    .articleImage {
     float:left;
     margin-right: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    }
    
    .container .jumbotron, .panel-default .panel-heading {
     background: #303740;
     color: #fff;
-    border-radius: 0;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    }
    
    .panel {
     background: rgba(255,255,255,0.7);
-    border-radius: 0;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    }
    
    .panel-default {
