@@ -1,13 +1,22 @@
 body {
-    /* background: url('../images/nyt_bg.jpg') no-repeat fixed; */
+    background: url('../images/nyt_bg.jpg') no-repeat fixed;
+    background: linear-gradient(to right, red, cyan, blue);
     background-size: cover;
     font-family: 'Oswald', sans-serif;
     font-weight: bolder;
+    text-align: center
    
    }
    
    h1,h2,h3,h4,h5,h6 {
+    text-align: center
     font-family: 'Alegreya', serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(247, 8, 8);
+        text-shadow: 1px 2px 0 #000,
+        1px 2px 0 #000,
+        1px 2px 0 #000,
+        1px 2px 0 #000;
    }
    
    .articleImage {
@@ -15,6 +24,14 @@ body {
     margin-right: 10px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
    }
+   
+   #articleImage:hover {
+    margin: 30px;
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: 3s;
+   
+    }
    
    .container .jumbotron, .panel-default .panel-heading {
     background: #303740;
@@ -39,6 +56,12 @@ body {
    
    .well h2 {
     margin-top: 0;
+    -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(247, 8, 8);
+          text-shadow: 1px 2px 0 #000,
+          1px 2px 0 #000,
+          1px 2px 0 #000,
+          1px 2px 0 #000;
    }
    .well .badge {
     font-size: 16px;
